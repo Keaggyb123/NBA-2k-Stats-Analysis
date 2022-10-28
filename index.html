@@ -1,0 +1,158 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=assignment9()> 
+
+
+<div>
+<h2 class="section">DSC 106 Final Project: NBA 2k20 Player Data Visualizations</h2>
+
+<br>
+<div>
+<h3>NBA Draft Pick vs Salary:</h3>
+
+<div id="radio_q2" class="center_plot">
+    <input type="radio" id="q2_sal" name="region" value="Salaries" checked="checked">
+    <label for="Salaries">Salaries</label>
+
+    <input type="radio" id="q2_rate" name="region" value="Rating">
+    <label for="Rating">Rating</label>
+</div>
+
+<div id="q1">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q1_plot" class="center_plot">
+    </div><br>
+    <div id="q1_answer" class="center_plot">
+        <br>
+        <h4>
+            This Visualization looks to understand the relationship between what draft pick a player 
+            is and their salary. By uisng the radio button you can switch the graph to see the relationship between draft pick 
+            rating in NBA 2k20. By looking at the Visualization you can see that their are more high picks
+            with high salaries and as the draft pick gets lower, there are less salaries in the top half. 
+            One more interesting thing that can be see are the rookie contracts which form a sloping line in 
+            the bottom quarter of the graph. The relationship between draft pick and rating is negative, meaning as 
+            draft pick increases, the rating will most likely decrease. The main take away is that high draft picks
+            typically have a higher rating and higher salary.
+            <br>
+            I choose the color purple because it contrasts nicely with the white background. I choose points as 
+            my marks and controlled them with horizontal and verttical position. This was the best way to represent 
+            the 429 players for the 2 variables I was looking into.
+    
+        </h4>
+    </div>
+</div>    
+</div>
+    
+<div>
+<h3>NBA Teams Total Salaries:</h3>
+      
+<div id="q2">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q2_plot" class="center_plot">
+    </div><br>
+    <div id="q2_answer" class="center_plot">
+        <br>
+        <h4>
+            This Visualization shows which NBA teams spend the most on their players. Typically teams with higher 
+            payrolls perform better than teams with smaller payrolls. The lakers and heat made the finals in 2020 
+            despite only having the 11th and 13th highest payrolls in the NBA, respectively.
+            <br>
+            I choose this green because it contrasts nicely with the white background and I really like the color. I choose 
+            areas as my marks and controlled them with length/area. This allowed my graph to display the difference in 
+            salary between each time.
+        </h4>
+    </div>
+</div>    
+
+<div>
+<br>
+<h3>Map of Average NBA 2k20 Rating by Country</h3>
+<br>
+<div id="q3">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q3_plot" class="center_plot">
+    </div>
+    <div id="q3_answer" class="center_plot">
+        <br>
+        <h4>
+            This Visualization looks to find what countries produce the highest rated nba player on average.
+            Most countries do not have any NBA players, only 39 countries do. Countries like Cameroon, 
+            Dominican Republic and Switzerland were able to have really high averages because they only had 1 or 2 players who 
+            were highly rated. Compared to places like the USA, Spain or Canada where they have a lot of highly rated players 
+            and a lot of low rated players making their country average out below 80.
+            <br>
+            I choose this red because it contrasts nicely with the white background and I really like the color. I choose 
+            areas as my marks and controlled them with color. This allowed me to create the chlorpleath map I wanted. This 
+            map displayes the countries with higher average ratings as a stronger shade of red and countries with a lower average 
+            rating with a lighter shade of red.
+        </h4>
+    </div>
+</div>    
+<br>
+<br>
+<h3>Number of Top 10 and second round picks each team has</h3>
+<br>
+<div id="q4">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q4_plot" class="center_plot">
+    </div>
+    <div id="q4_answer" class="center_plot">
+        <br>
+        <h4>
+            This Visualization looks to find what NBA teams have the most amount of top 10 picks and the most 
+            amount of second round picks on their team. It appears the Magic and the Rockets have the most top 10 picks
+            on their team and have the most top 10 picks and seocnd round picks on their team.
+        
+            <br>
+            I choose to use red and blue because pop really well of the white background and are complimentary colors.
+            The marks in this graph are areas, rectangles and I used the size of these areas to show off the differences 
+            in nba draft picks. 
+        </h4>
+    </div>
+</div>   
+
+<h3>Box plot of NBA Salaries</h3>
+
+    <div id="q5">
+    
+        </div>
+        <h5>Plot:</h5>
+        <div id="q5_plot" class="center_plot">
+        </div>
+        <div id="q5_answer" class="center_plot">
+            <br>
+            <h4>
+                This Visualization looks to find the distribution of salaries in the NBA. About 75% of players make less
+                than $15,000,000 per year yet, the most amount people make are around $45,000,000. This makes sense as typically 
+                the best players recieve extremely high salaries and team will have 2 or 3 players which combined make over 50% of 
+                the total salary cap.
+            
+                <br>
+                I choose to use teal because it pops really well of the white background.
+                The marks in this graph are areas, rectangles and I used the size of these areas to show off the differences 
+                in nba salary. 
+            </h4>
+        </div>
+    </div>  
+   
+
+
+    
+   
+</body>  
+</html>  
